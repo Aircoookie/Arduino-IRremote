@@ -176,7 +176,7 @@ class IRrecv
 
 		void  blink13    (int blinkflag) ;
 		int   decode     (decode_results *results) ;
-		void  enableIRIn ( ) ;
+		void  enableIRIn (bool enable) ;
 		bool  isIdle     ( ) ;
 		void  resume     ( ) ;
 
